@@ -137,6 +137,7 @@
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  box-shadow: var(--boxShadow) !important;
 }
 
 .contact-img {
