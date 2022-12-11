@@ -15,8 +15,8 @@ $(document).ready(function () {
       $("#custom").attr("required", true);
     } //end of if tshirt
     else {
-      $("#custom").removeAttr("disabled", true);
-      $("#custom").attr("required");
+      $("#custom").attr("disabled", true);
+      $("#custom").removeAttr("required");
       $("#custom").val("");
       $("#custom").hide();
       // alert("else");
